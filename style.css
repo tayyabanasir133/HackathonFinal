@@ -37,27 +37,119 @@
 
 
 
-@media screen and (max-width:991px) {
-  .nav { text-align: center; margin : 0 auto;
-    
+@media (max-width: 767px) {
+
+  /* Navbar */
+  .myul {
+    justify-content: center;
   }
-.parentcl{order: 2;}
-.rightcolumn{order: -1;}
-.img1{position: static;}
 
+  .mybtn {
+    margin-top: 10px;
+  }
 
-  
+  /* Headings & text */
+  .h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .para {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* Images */
+  .img1,
+  .secondimg1,
+  .placeholderimg {
+    position: static;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  /* Second row section */
+  .rtwopara {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .mybtn2 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .ipfield {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Cards & containers */
+  .mycards {
+    width: 80%;
+  }
+
+  .bgcontainer {
+    margin-top: 50px;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+
+  .textpara{display: none;}
+  .sppara{display: none;}
+  .secondimg1{margin-top: 15px; margin-bottom: 15px; }
+  .button{width: 50%; margin-right: 70px ;}
+
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
 
-
-
-@media screen and (max-width: 576px) {
-  .nav { text-align: center; margin : 0 auto;
-    
+  .h1 {
+    font-size: 34px;
   }
-  .parentcl{order: 2;}
-.rightcolumn{order: -1;}
-.img1{position: static;}
 
+  .para {
+    font-size: 14px;
+  }
+
+  .img1 {
+    width: 280px;
+  }
+
+  .placeholderimg {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .secondimg1 {
+    width: 600px;
+    margin: 0px auto;
+  
+  }
+
+  .mybtn2 {
+    margin-left: 0;
+    width: 140px;
+  }
+
+  .mycards {
+    width: 95%;
+    margin-top: 10px;
+  }
+
+  .bgcontainer {
+    margin-top: 100px;
+  }
+  
+  .sppara{display: none;}
+
+  .rowtwo{margin-bottom: 10px;}
+
+  .myul {
+    justify-content: center;
+  }
 }
